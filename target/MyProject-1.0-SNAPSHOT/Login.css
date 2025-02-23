@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Agriculture.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.back{
+    position: absolute;
+    height: 850px;
+    width: 1500px;
+}
+/*.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: darkolivegreen;
+}*/
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #000;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: solid limegreen;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: limegreen;
+    border: 2px limegreen;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.content .cn a:hover{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #fff;
+    font-size: 60px;
+}
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: limegreen;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid limegreen;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif ;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: limegreen;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.form .btn{
+    width: 240px;
+    height: 40px;
+    background: limegreen;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: limegreen;
+}
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: limegreen;
+}
+form .button{
+    height: 45px;
+    margin: 35px ;
+    margin-top: 0;
+
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: limegreen;
+}
+form .button input:hover{
+    /* transform: scale(0.99); */
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman';
+    transition: .3s ease;
+    background: #fff;
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 20px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.social-links ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links ul li a{
+    display: inline-block;
+    text-transform: capitalize;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links ul li a:hover{
+    color: #24264b;
+    background-color: #ffffff;
+}
